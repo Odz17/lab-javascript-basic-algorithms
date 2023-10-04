@@ -12,14 +12,14 @@ console.log (`the navigator name is ${hacker2}`)
 // Iteration 2: Conditionals
 
 if (hacker1.length > hacker2.length) {
-    console.log('The driver1 has the longest name, it has ' + hacker1.length + ' characters');
+  console.log(`The driver1 has the longest name, it has ${hacker1.length} characters`);
 }
 else if (hacker2.length > hacker1.length) {
     console.log ('the navigator has the longest name, it has ' + hacker2.length + ' characters');
 
     }
     else  {
-        console.log ('Wow, you both have equally long names, ${hacker1.length} characters!')
+      console.log(`Wow, you both have equally long names, ${hacker1.length} characters!`);
     }
 
 
